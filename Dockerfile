@@ -11,4 +11,4 @@ FROM openjdk:17-jdk-slim
 
 EXPOSE 8080
 
-ENTRYPOINT[ "java", "-jar", "target/*.jar" ]
+ENTRYPOINT [ "java", "-jar", "target/*.jar" ]
